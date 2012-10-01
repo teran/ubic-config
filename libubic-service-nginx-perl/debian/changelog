@@ -1,3 +1,9 @@
+libubic-service-nginx-perl (0.10) unstable; urgency=low
+
+  * changes according to sh
+
+ -- Igor Shishkin <me@teran.ru>  Mon, 01 Oct 2012 05:13:33 +0400
+
 libubic-service-nginx-perl (0.9) unstable; urgency=low
 
   * added ability to start nginx with nginx-default.conf if there is no nginx.conf

@@ -1,6 +1,6 @@
 #!/bin/sh
 
-if [[ -x "/etc/init.d/nginx" ]]
+if [ -x "/etc/init.d/nginx" ]
 then
 	/etc/init.d/nginx stop
 fi
