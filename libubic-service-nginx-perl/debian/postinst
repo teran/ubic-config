@@ -1,0 +1,9 @@
+#!/bin/sh
+
+if [[ -x '/etc/init.d/nginx' ]]
+then
+	update-rc.d -f nginx remove
+fi
+
+ubic start nginx
+

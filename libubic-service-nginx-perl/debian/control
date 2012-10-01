@@ -1,0 +1,14 @@
+Source: libubic-service-nginx-perl
+Section: extra
+Priority: optional
+Maintainer: Igor Shishkin <me@teran.ru>
+Vcs-git: ssh://github.com/teran/ubic-config/libubic-service-nginx-perl
+
+Package: libubic-service-nginx-perl
+Section: extra
+Replaces: nginx-common
+Priority: optional
+Architecture: all
+Depends: ubic, nginx (>= 1.0)
+Description: ubic service for nginx
+ .

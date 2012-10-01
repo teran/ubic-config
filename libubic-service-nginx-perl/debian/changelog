@@ -1,0 +1,53 @@
+libubic-service-nginx-perl (0.9) unstable; urgency=low
+
+  * added ability to start nginx with nginx-default.conf if there is no nginx.conf
+
+ -- Igor Shishkin <me@teran.ru>  Thu, 24 May 2012 00:01:54 +0400
+
+libubic-service-nginx-perl (0.8) unstable; urgency=low
+
+  * daemon off moved from config file to ubic service definition via -g option
+
+ -- Igor Shishkin <me@teran.ru>  Fri, 18 May 2012 23:08:14 +0400
+
+libubic-service-nginx-perl (0.7) unstable; urgency=low
+
+  * preinst added with stop action
+
+ -- Igor Shishkin <me@teran.ru>  Wed, 02 May 2012 23:36:43 +0400
+
+libubic-service-nginx-perl (0.6) unstable; urgency=low
+
+  * fix for control
+
+ -- Igor Shishkin <me@teran.ru>  Wed, 02 May 2012 23:32:18 +0400
+
+libubic-service-nginx-perl (0.5) unstable; urgency=low
+
+  * fix in init script
+
+ -- Igor Shishkin <me@teran.ru>  Wed, 02 May 2012 23:22:12 +0400
+
+libubic-service-nginx-perl (0.4) unstable; urgency=low
+
+  * init-script added
+
+ -- Igor Shishkin <me@teran.ru>  Wed, 02 May 2012 23:05:44 +0400
+
+libubic-service-nginx-perl (0.3) unstable; urgency=low
+
+  * fix for service
+
+ -- Igor Shishkin <me@teran.ru>  Mon, 30 Apr 2012 23:03:22 +0400
+
+libubic-service-nginx-perl (0.2) unstable; urgency=low
+
+  * fix in install file
+
+ -- Igor Shishkin <me@teran.ru>  Mon, 30 Apr 2012 23:00:08 +0400
+
+libubic-service-nginx-perl (0.1) unstable; urgency=low
+
+  * Ubic service for nginx. Initial release
+
+ -- Igor Shishkin <me@teran.ru>  Mon, 30 Apr 2012 22:19:17 +0400

@@ -1,0 +1,20 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+
+use Ubic::Service::SimpleDaemon;
+
+my $CONFIG = '/etc/nginx/nginx.conf';
+$CONFIG = '/etc/nginx/nginx-default.conf' if ! -f '/etc/nginx/nginx.conf';
+
+my $LOGDIR = '/var/log/nginx';
+
+Ubic::Service::SimpleDaemon->new({
+    bin      => "/usr/sbin/nginx -c $CONFIG -g 'daemon off;'",
+    stdout   => "$LOGDIR/restart.log",
+    stderr   => "$LOGDIR/restart.log",
+    ubic_log => "$LOGDIR/ubic.log",
+    user     => "root",
+});
+
