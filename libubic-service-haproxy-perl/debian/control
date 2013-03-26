@@ -1,0 +1,14 @@
+Source: libubic-service-haproxy-perl
+Section: extra
+Priority: optional
+Maintainer: Igor Shishkin <me@teran.ru>
+Vcs-git: ssh://github.com/teran/ubic-config/libubic-service-haproxy-perl
+
+Package: libubic-service-haproxy-perl
+Section: extra
+Replaces: haproxy
+Priority: optional
+Architecture: all
+Depends: ubic, haproxy
+Description: ubic service for haproxy
+ .

@@ -1,0 +1,5 @@
+libubic-service-haproxy-perl (1.0) unstable; urgency=low
+
+  * Initial release.
+
+ -- Igor Shishkin <me@teran.ru>  Tue, 26 Mar 2013 17:43:47 +0400

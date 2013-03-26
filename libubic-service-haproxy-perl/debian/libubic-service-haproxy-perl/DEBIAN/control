@@ -1,0 +1,10 @@
+Package: libubic-service-haproxy-perl
+Version: 1.0
+Architecture: all
+Maintainer: Igor Shishkin <me@teran.ru>
+Installed-Size: 41
+Depends: ubic, haproxy
+Replaces: haproxy
+Section: extra
+Priority: optional
+Description: ubic service for haproxy
