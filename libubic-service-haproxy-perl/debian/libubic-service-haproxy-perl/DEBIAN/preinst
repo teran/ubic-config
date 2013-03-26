@@ -1,7 +1,0 @@
-#!/bin/sh
-
-if [ -x "/etc/init.d/haproxy" ]
-then
-	/etc/init.d/haproxy stop
-fi
-

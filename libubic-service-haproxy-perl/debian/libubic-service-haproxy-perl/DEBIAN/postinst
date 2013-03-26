@@ -1,9 +1,0 @@
-#!/bin/sh
-
-if [ -x '/etc/init.d/haproxy' ]
-then
-	update-rc.d -f haproxy remove
-fi
-
-ubic start haproxy
-
