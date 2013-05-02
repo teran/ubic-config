@@ -1,0 +1,9 @@
+#!/bin/sh
+
+if [ -x '/etc/init.d/php-fcgi' ]
+then
+	update-rc.d -f nginx remove
+fi
+
+ubic start php5-fcgi
+

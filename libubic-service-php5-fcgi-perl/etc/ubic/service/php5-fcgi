@@ -1,0 +1,17 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+
+use Ubic::Service::SimpleDaemon;
+
+my $LOGDIR = '/var/log/php';
+
+Ubic::Service::SimpleDaemon->new({
+    bin      => "/usr/bin/spawn-fcgi -p 9000 -f /usr/bin/php-cgi -u www-data -g www-data -C 8 -n",
+    stdout   => "$LOGDIR/restart.log",
+    stderr   => "$LOGDIR/restart.log",
+    ubic_log => "$LOGDIR/ubic.log",
+    user     => "root",
+});
+

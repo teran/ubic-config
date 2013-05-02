@@ -1,0 +1,7 @@
+#!/bin/sh
+
+if [ -x "/etc/init.d/php5-fcgi" ]
+then
+	/etc/init.d/php5-fcgi stop
+fi
+

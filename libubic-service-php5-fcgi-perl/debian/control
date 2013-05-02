@@ -1,0 +1,16 @@
+Source: libubic-service-php5-fcgi-perl
+Section: extra
+Priority: optional
+Maintainer: Igor Shishkin <mail@teran.me>
+Vcs-Git: git://github.com/teran/ubic-config.git
+Vcs-Browser: https://github.com/teran/ubic-config
+
+Package: libubic-service-php5-fcgi-perl
+Section: extra
+Priority: optional
+Architecture: all
+Depends: ubic, php5-cgi, spawn-fcgi
+Conflicts: php5-fcgi
+Provides: php5-fcgi
+Description: ubic service for running php5 as fcgi service
+ .
