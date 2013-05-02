@@ -1,0 +1,5 @@
+libubic-service-php5-fcgi-perl (0.1) unstable; urgency=low
+
+  * Initial release.
+
+ -- Igor Shishkin <mail@teran.me>  Thu, 02 May 2013 13:16:50 +0400
