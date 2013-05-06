@@ -5,5 +5,4 @@ then
 	update-rc.d -f nginx remove
 fi
 
-ubic start nginx
-
+invoke-rc.d nginx restart

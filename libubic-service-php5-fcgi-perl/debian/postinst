@@ -1,9 +1,8 @@
 #!/bin/sh
 
-if [ -x '/etc/init.d/php-fcgi' ]
+if [ -x '/etc/init.d/php5-fcgi' ]
 then
-	update-rc.d -f nginx remove
+	update-rc.d -f php5-fcgi remove
 fi
 
-ubic start php5-fcgi
-
+invoke-rc.d php5-fcgi restart

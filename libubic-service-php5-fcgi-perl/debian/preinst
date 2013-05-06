@@ -2,6 +2,5 @@
 
 if [ -x "/etc/init.d/php5-fcgi" ]
 then
-	/etc/init.d/php5-fcgi stop
+	invoke-rc.d php5-fcgi stop
 fi
-

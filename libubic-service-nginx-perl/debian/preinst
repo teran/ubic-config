@@ -2,6 +2,5 @@
 
 if [ -x "/etc/init.d/nginx" ]
 then
-	/etc/init.d/nginx stop
+	invoke-rc.d nginx stop
 fi
-
