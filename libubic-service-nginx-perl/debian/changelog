@@ -1,3 +1,10 @@
+libubic-service-nginx-perl (0.11) unstable; urgency=low
+
+  * LSB-info in init-scripts
+  * some cleanup
+
+ -- Igor Shishkin <mail@teran.me>  Mon, 06 May 2013 15:54:53 +0400
+
 libubic-service-nginx-perl (0.10) unstable; urgency=low
 
   * changes according to sh
