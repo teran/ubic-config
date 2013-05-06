@@ -1,0 +1,6 @@
+#!/bin/sh
+
+if [ -x "/etc/init.d/nginx" ]
+then
+	invoke-rc.d nginx stop
+fi
