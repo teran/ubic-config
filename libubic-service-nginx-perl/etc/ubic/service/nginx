@@ -16,5 +16,7 @@ Ubic::Service::SimpleDaemon->new({
     stderr   => "$LOGDIR/restart.log",
     ubic_log => "$LOGDIR/ubic.log",
     user     => "root",
+    ulimit   => {
+        'RLIMIT_NOFILE' => 102400,
+    },
 });
-
